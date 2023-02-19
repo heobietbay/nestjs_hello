@@ -9,4 +9,4 @@ services:
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: nestjsapitutorial
     ports:
-      - 5432:5432  
+      - 5434:5432  
