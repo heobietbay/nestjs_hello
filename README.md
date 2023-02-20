@@ -32,6 +32,17 @@
 $ yarn install
 ```
 
+## Docker
+```bash
+ # Pre-requisite: installed Docker
+ # run the postgresql docker - configured in docker-compose.yml
+ $ docker compose up dev-db -d
+
+ # run prisma studio to show webui for that post gres
+ ## configured everything in .env
+ $ npx prisma studio
+```
+
 ## Running the app
 
 ```bash
